@@ -1,0 +1,164 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://megan2510.github.io/IIIFPresentation/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Animal Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Pages from 'A Description of Three Hundred Animals: viz Beast, Birds, Fishes, Serpents and Insects', by Thomas Boreman, 1730.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution" : "Held at the British Library",
+  "sequences" : [ {
+    "@id" : "http://94e35463-0bb4-4b96-8604-78878b541278",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2bdd3fbf-9222-44be-adb4-c6958acec239",
+      "@type" : "sc:Canvas",
+      "label" : "Title page",
+      "height" : 1766,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://660b8aaf-f6fc-40a0-b76b-75b1412e23ed",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1766,
+          "width" : 2000
+        },
+        "on" : "http://2bdd3fbf-9222-44be-adb4-c6958acec239"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://21919e9c-fc3a-4d13-afdf-b41627537087",
+      "@type" : "sc:Canvas",
+      "label" : "Panther",
+      "height" : 1753,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://022ad226-1f56-455b-a828-701d8a808661",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1753,
+          "width" : 2000
+        },
+        "on" : "http://21919e9c-fc3a-4d13-afdf-b41627537087"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a07a4a84-179f-4fcf-9eae-4228d9c06ede",
+      "@type" : "sc:Canvas",
+      "label" : "Rhinocerot",
+      "height" : 1737,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c21c2552-cfe1-4e3a-9dfb-fd90b7deae78",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-3",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1737,
+          "width" : 2000
+        },
+        "on" : "http://a07a4a84-179f-4fcf-9eae-4228d9c06ede"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://27a7db74-0a36-4d01-94c0-d3d0811b167c",
+      "@type" : "sc:Canvas",
+      "label" : "Hyena",
+      "height" : 1740,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://40dfac0c-18ce-4d4d-a500-1fa6f336faf9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-4/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-4",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1740,
+          "width" : 2000
+        },
+        "on" : "http://27a7db74-0a36-4d01-94c0-d3d0811b167c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c6a5cec1-3f98-4e8a-922c-e25239ee629b",
+      "@type" : "sc:Canvas",
+      "label" : "Scorpion",
+      "height" : 1766,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0ba30cc6-5f13-4310-bde4-a792dc25bd34",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-5/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/description-of-three-hundred-animals-5",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1766,
+          "width" : 2000
+        },
+        "on" : "http://c6a5cec1-3f98-4e8a-922c-e25239ee629b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://2bdd3fbf-9222-44be-adb4-c6958acec239" ]
+  } ]
+}
