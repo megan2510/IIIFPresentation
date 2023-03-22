@@ -1,0 +1,13 @@
+{
+  "id" : "https://megan2510.github.io/IIIFPresentation/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in megan2510/IIIFPresentation project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://megan2510.github.io/IIIFPresentation/manifests/manifest2.json",
+    "label" : "Animal Manifest"
+  } ]
+}
